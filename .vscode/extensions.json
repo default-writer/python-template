@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "codezombiech.gitignore",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "yzhang.markdown-all-in-one",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "littlefoxteam.vscode-python-test-adapter",
+        "stevejpurves.cucumber",
+        "hbenl.vscode-test-explorer",
+        "ms-vscode.test-adapter-converter"
+    ]
+}
