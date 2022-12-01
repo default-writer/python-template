@@ -1,4 +1,9 @@
 #!/bin/bash -e
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+
 pwd=$(pwd)
 
 sudo git config --global --add safe.directory ${pwd}
