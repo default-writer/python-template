@@ -9,14 +9,14 @@ fi
 
 pwd=$(pwd)
 
-cd "${0%/*}"
 ${pwd}/bin/clean.sh
+
+rm -rf venv
+
+python3 -m venv venv
+
+chmod +x venv/bin/activate && venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+
 cd ${pwd}
-
-rm -rf ${pwd}/venv
-
-python3 -m venv ${pwd}/venv
-
-chmod +x ${pwd}/venv/bin/activate && ${pwd}/venv/bin/activate
-python3 -m pip install --require-virtualenv --upgrade pip
-python3 -m pip install --require-virtualenv -r requirements.txt
