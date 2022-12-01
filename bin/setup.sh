@@ -9,12 +9,15 @@ fi
 
 pwd=$(pwd)
 
-# sudo git config --global --add safe.directory ${pwd}
-
-# sudo apt-get update
-# sudo apt install -y build-essential curl git ca-certificates python3 python3-dev python3-pip python3-venv python3-behave
-
 install="$1"
+
+if [ "${install}" == "build" ]
+then
+  sudo git config --global --add safe.directory ${pwd}
+
+  sudo apt-get update
+  sudo apt install -y build-essential curl git ca-certificates python3 python3-dev python3-pip python3-venv python3-behave
+fi
 
 if [ "${install}" == "docker" ]
 then
