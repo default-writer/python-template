@@ -3,6 +3,23 @@
 Python template project for VSCode (batteries included)
 
 
+## installation
+
+- run script `./bin/setup.sh` as root
+
+```bash
+sudo ./bin/setup.sh build
+```
+
+- run script `./bin/venv.sh` as user
+
+```bash
+./bin/venv.sh
+```
+
+
+## dockerfile
+
 ```dockerfile
 ENV TZ=America/Vancouver
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
