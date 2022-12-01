@@ -21,8 +21,6 @@ fi
 
 if [ "${install}" == "docker" ]
 then
-  echo docker
-  exit
   sudo apt-get update
   sudo apt-get install -y \
     ca-certificates \
