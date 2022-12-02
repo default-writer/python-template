@@ -20,10 +20,7 @@
         /* Git */
         "mhutchie.git-graph",
         "donjayamanne.githistory",
-        /* Testing */
-        "hbenl.vscode-test-explorer",
-        "stevejpurves.cucumber",
-        "littlefoxteam.vscode-python-test-adapter",
+        /* Markdown */
         "yzhang.markdown-all-in-one",
         /* Microsoft */
         "ms-python.python",
