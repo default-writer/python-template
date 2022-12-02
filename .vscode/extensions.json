@@ -6,6 +6,6 @@
         "yzhang.markdown-all-in-one",
         "ms-python.vscode-pylance",
         "ms-python.python",
-        "stevejpurves.cucumber"
+        "sonarsource.sonarlint-vscode"
     ]
 }
