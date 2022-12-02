@@ -2,6 +2,13 @@
 
 Python template project for VSCode (batteries included)
 
+## code 
+
+- code reformatting
+
+```bash
+black src
+```
 
 ## installation
 
