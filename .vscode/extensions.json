@@ -6,7 +6,6 @@
         "yzhang.markdown-all-in-one",
         "ms-python.vscode-pylance",
         "ms-python.python",
-        "stevejpurves.cucumber",
-        "ms-vscode.test-adapter-converter"
+        "stevejpurves.cucumber"
     ]
 }
