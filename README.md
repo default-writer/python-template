@@ -4,7 +4,7 @@ Python template project for VSCode (batteries included)
 
 ## code 
 
-- code reformatting
+code reformatting
 
 ```bash
 black src
@@ -12,18 +12,17 @@ black src
 
 ## installation
 
-- run script `./bin/setup.sh` as root
+run script `./bin/setup.sh` as root
 
 ```bash
 sudo ./bin/setup.sh build
 ```
 
-- run script `./bin/venv.sh` as user
+run script `./bin/venv.sh` as user
 
 ```bash
 ./bin/venv.sh
 ```
-
 
 ## dockerfile
 
