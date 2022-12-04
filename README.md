@@ -2,21 +2,35 @@
 
 Python template project for VSCode (batteries included)
 
+## environment variables
+
+run script `./bin/env.sh` as user
+
+```bash
+. ./bin/env.sh
+```
+
+## code 
+
+code reformatting
+
+```bash
+black src
+```
 
 ## installation
 
-- run script `./bin/setup.sh` as root
+run script `./bin/setup.sh` as root
 
 ```bash
 sudo ./bin/setup.sh build
 ```
 
-- run script `./bin/venv.sh` as user
+run script `./bin/venv.sh` as user
 
 ```bash
 ./bin/venv.sh
 ```
-
 
 ## dockerfile
 
