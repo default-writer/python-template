@@ -12,7 +12,7 @@
 	"workspaceFolder": "/workspace",
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
+	"settings": {
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
@@ -24,9 +24,8 @@
 		"yzhang.markdown-all-in-one",
         /* Microsoft */
 		"ms-python.python",
-		"ms-python.vscode-pylance",
-		"SonarSource.sonarlint-vscode"
-	],
+		"ms-python.vscode-pylance"
+	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -35,5 +34,5 @@
 	//"postCreateCommand": "sudo chown -R vscode:vscode /workspace",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	//"remoteUser": "vscode"
 }
